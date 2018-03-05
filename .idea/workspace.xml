@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="28a99887-d7eb-40d1-b169-d2e7ee3d0aeb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/singleton/PersonWithLazyLoading.java" afterPath="$PROJECT_DIR$/src/main/java/singleton/PersonWithLazyLoading.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,12 +79,32 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="168">
+                <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonWithStaticInnerClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/singleton/PersonWithStaticInnerClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonWithLazyLoading.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/singleton/PersonWithLazyLoading.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,7 +146,6 @@
         <option value="$PROJECT_DIR$/src/main/java/builder_pattern/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/builder_pattern/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/singleton/PersonWithLazyLoading.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton/PersonWithStaticInnerClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/singleton/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/abstract_factory/AbstractCar.java" />
@@ -167,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/main/java/adaptor/ChargingAdaptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/abstract_factory/AbstractAudi.java" />
         <option value="$PROJECT_DIR$/src/main/java/adaptor/OPPO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/singleton/PersonWithLazyLoading.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -225,6 +246,21 @@
               <item name="free" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cncomicbc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="free" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cncomicbc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="free" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -466,12 +502,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520217559333</updated>
-      <workItem from="1520217561943" duration="15874000" />
+      <workItem from="1520217561943" duration="16223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15874000" />
+    <option name="totallyTimeSpent" value="16223000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -605,25 +641,6 @@
           <folding>
             <element signature="e#188#189#0" expanded="false" />
             <element signature="e#219#220#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/PersonWithLazyLoading.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/PersonWithStaticInnerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="e#354#355#0" expanded="false" />
-            <element signature="e#401#402#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -997,11 +1014,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/PersonWithStaticInnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/singleton/PersonWithLazyLoading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="168">
+            <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
             <folding />
           </first_editor>
           <second_editor />

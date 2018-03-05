@@ -1,6 +1,8 @@
 package singleton;
 
 /**
+ * double check
+ *
  * @author Test
  */
 public class PersonWithLazyLoading {
