@@ -12,8 +12,8 @@ public class Main {
         PersonWithLazyLoading personWithLazyLoading1 = PersonWithLazyLoading.getInstance();
         System.out.println(personWithLazyLoading0 == personWithLazyLoading1);
 
-        PersonWithStaticInnerClass personWithStaticInnerClass0 = PersonWithStaticInnerClass.getInsatance();
-        PersonWithStaticInnerClass personWithStaticInnerClass1 = PersonWithStaticInnerClass.getInsatance();
+        PersonWithStaticInnerClass personWithStaticInnerClass0 = PersonWithStaticInnerClass.getInstance();
+        PersonWithStaticInnerClass personWithStaticInnerClass1 = PersonWithStaticInnerClass.getInstance();
 
         System.out.println(personWithStaticInnerClass0 == personWithStaticInnerClass1);
     }

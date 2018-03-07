@@ -9,8 +9,8 @@
         <module name="free" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="free" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="free" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

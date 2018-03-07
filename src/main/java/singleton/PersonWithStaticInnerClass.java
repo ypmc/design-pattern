@@ -12,7 +12,7 @@ public class PersonWithStaticInnerClass {
     private PersonWithStaticInnerClass() {
     }
 
-    public static final PersonWithStaticInnerClass getInsatance() {
+    public static final PersonWithStaticInnerClass getInstance() {
         return SingletonHolder.instance;
     }
 }
