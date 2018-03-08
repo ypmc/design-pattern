@@ -4,9 +4,9 @@ package chain_of_responsibility;
  * @author kangkang lou
  */
 //Handler
-public interface EmailHandler {//reference to the next handler in the chain
+public interface EmailHandler {
 
-    void setNext(EmailHandler handler);//handle requestpublic
+    void setNext(EmailHandler handler);
 
     void handleRequest(Email email);
 }
