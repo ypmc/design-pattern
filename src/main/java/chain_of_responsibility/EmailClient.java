@@ -1,5 +1,4 @@
 package chain_of_responsibility;
-
 /**
  * @author kangkang lou
  */
